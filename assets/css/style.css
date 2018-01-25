@@ -1,0 +1,40 @@
+
+body {
+    width: 960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section {
+    width: 650px;
+    background-color: #ffffff;
+}
+aside {
+    width: 270px;
+}
+
+aside img {
+    width: 70px;
+}
+
+}
+header {
+    background-color: #ffffff;
+    border: 6px;
+    border-color: #cccccc;
+    padding-left: 50px;
+    width: 300px;
+
+
+}
+header h1 {
+    background-color: #4aaaa5;
+    font-size: 35pt;
+    width: 300px;
+    padding: 20px;
+    margin-left: 40px;
+
+}
+header nav li {
+    display: inline;
+    float: right;
+    padding: 40px;
+}
