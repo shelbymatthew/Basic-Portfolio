@@ -2,10 +2,13 @@
 body {
     width: 960px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("/Users/shelbysmith/Desktop/HOMEWORK_SMS/Basic-Portfolio/assets/images/background.png");
+    background-repeat:;
 }
 section {
     width: 650px;
     background-color: #ffffff;
+    margin-left: 60px;
 }
 aside {
     width: 270px;
@@ -30,11 +33,46 @@ header h1 {
     font-size: 35pt;
     width: 300px;
     padding: 20px;
-    margin-left: 40px;
+    margin: 0 0 160px 60px;
+    display: inline-block;
+    color: white;
 
 }
-header nav li {
-    display: inline;
+nav {
     float: right;
-    padding: 40px;
+
+}
+nav, li {
+    display: inline-block;
+    margin: 20px 30px 30px 0;
+    padding: 0 30px 0 30px;
+}
+#navAbout {
+    border-right: 2px solid gray;
+    text-align: center
+
+
+}
+
+#navPortfolio {
+    border-right: 2px solid gray;
+    text-align: center;
+
+}
+#h2AboutMe {
+    font-size: 23px;
+    padding: 40px 0px 10px 160px;
+}
+#aboutMe {
+    width: 650px;
+}
+
+aside ul{
+    display: inline-block;
+}
+aside {
+    float: right;
+}
+#ulconnectWithMe {
+    display: inline-block;
 }
