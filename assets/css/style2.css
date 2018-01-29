@@ -1,5 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1200px;
 }
 
 main {
@@ -9,35 +10,38 @@ header {
     background-color: red;
     overflow: auto;
     padding: 0 50px 0 50px;
+    margin: 0 0 20px 0;
 
 }
 
 header h1 {
     width: 300px;
-    height: 76px;
+    height: 72px;
     float: left;
     font-size: 25pt;
     background-color: green;
-    margin-top: 20px;
+
 
 }
 
 nav {
     padding: 20px;
+    width: 270px;
     float: left;
     background-color: gray;
-    margin: 20px 20px 20px 120px;
+
 
 
 }
 nav li {
     display: inline-block;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 15px;
 }
 
 main {
     clear: both;
     margin: 0 50px 0 50px;
+    width: 960px;
 
 }
 
@@ -45,12 +49,15 @@ section {
     background-color: yellow;
     float: left;
     width: 650px;
-
+    line-height: 25px;
+    margin-bottom: 20px;
 }
 
 aside {
     background-color: pink;
-    float: left;
+    float: right;
+    width: 270px;
+
 
 }
 
@@ -70,5 +77,7 @@ ul {
 footer {
     clear: both;
     background-color: orange;
+    padding: 30px;
+    border-top: blue 10px solid;
 
 }
