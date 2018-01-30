@@ -5,41 +5,49 @@ body {
 
 main {
     width: 960px;
+    margin-top: 400px;
 }
 header {
+    width: 1100px;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: red;
     overflow: auto;
-    padding: 0 50px 0 50px;
-    margin: 0 0 20px 0;
+    padding: 20px 50px 0 50px;
+    margin: 0px 0 20px 0;
 
 }
 
 header h1 {
     width: 300px;
-    height: 72px;
     float: left;
     font-size: 25pt;
     background-color: green;
+    padding:  20px 20px 20px 40px;
+
+
 
 
 }
 
 nav {
-    padding: 20px;
+    reset:both;
+    padding: 20px 0 20px 20px;
     width: 270px;
     float: left;
     background-color: gray;
+    margin: 5px 0 0 316px;
 
 
 
 }
 nav li {
     display: inline-block;
-    padding: 0 15px 0 15px;
+    padding: 0 10px 0 10px;
 }
 
 main {
-    clear: both;
     margin: 0 50px 0 50px;
     width: 960px;
 
@@ -51,18 +59,64 @@ section {
     width: 650px;
     line-height: 25px;
     margin-bottom: 20px;
+    margin-top: 100px;
+   /* padding: 20px;*/
+}
+
+#h2AboutMe {
+    background-color: aqua;
+    padding:  40px 40px 40px 20px;
+    font-size: 30pt;
+    border-bottom: 1pt grey solid;
+    margin-bottom: 20px;
+}
+
+#articleAboutMe {
+    padding: 20px;
+}
+
+p.AboutMe {
+    clear: both;
+    font-size: 40px;
+    padding: 20px;
+    background-color: lightblue;
+}
+#cat {
+    float: left;
+    margin-right: 20px;
+}
+
+#pAboutMe {
+    float: left;
+
 }
 
 aside {
     background-color: pink;
-    float: right;
+    float: left;
     width: 270px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-left: 38px;
+    margin-top: 100px;
 
 
 }
 
+#connectWithMe {
+    margin: 20px 0  20px 0;
+}
+
+#ulConnectWithMe {
+    margin-bottom: 20px;
+}
+
 aside li {
     display: inline-block;
+
+}
+
+
 }
 
 h2 {
@@ -79,5 +133,6 @@ footer {
     background-color: orange;
     padding: 30px;
     border-top: blue 10px solid;
+    text-align: center;
 
 }

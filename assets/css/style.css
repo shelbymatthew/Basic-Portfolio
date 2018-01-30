@@ -5,6 +5,15 @@ body {
     background-image: url("/Users/shelbysmith/Desktop/HOMEWORK_SMS/Basic-Portfolio/assets/images/background.png");
     background-repeat:;
 }
+
+header {
+    background-color: #ffffff;
+    border: 6px;
+    border-color: #cccccc;
+    padding-left: 50px;
+    width: 300px;
+}
+
 section {
     width: 650px;
     background-color: #ffffff;
@@ -19,12 +28,7 @@ aside img {
 }
 
 }
-header {
-    background-color: #ffffff;
-    border: 6px;
-    border-color: #cccccc;
-    padding-left: 50px;
-    width: 300px;
+
 
 
 }
